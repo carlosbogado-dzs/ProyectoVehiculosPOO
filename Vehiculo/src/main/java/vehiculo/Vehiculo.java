@@ -1,5 +1,8 @@
 package vehiculo;
-
+/**
+*Clase abstracta que define la identidad del vehiculo.
+*Contiene atributo id y un método abstracto patronMovimiento()
+*/
 public abstract class Vehiculo {
     private String id;
     public Vehiculo(String id){
