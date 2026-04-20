@@ -1,5 +1,8 @@
 package vehiculo;
-
+/**
+*Clase concreta que representa un dron de transporte.
+*Extiende Vehiculo e implementa IConectable.
+*/
 public class DronTransporte extends Vehiculo implements IConectable{
     public DronTransporte(String id){
         super(id);
