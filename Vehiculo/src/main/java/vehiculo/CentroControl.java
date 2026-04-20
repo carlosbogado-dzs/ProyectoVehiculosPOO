@@ -1,6 +1,9 @@
 package vehiculo;
 import java.util.ArrayList;
-
+/**
+*Clase que gestiona la flota de vehiculos.
+*Demuestra composición, agregación y polimorfismo
+*/
 public class CentroControl {
     private ArrayList<Vehiculo> flota;
 
